@@ -1,0 +1,41 @@
+[
+    {
+        "id": "d0e2959d-ddff-4676-bce7-01d3647ee84a",
+        "name": "BaChangeTransactions",
+       
+        "content": {
+          "fileInformation": {
+            "fileType": "Change Transaction Report",
+            "dateTime": "2021-10-03T22:19:27.6209847+00:00",
+            "locale": "en-AU",
+            "version": 1,
+            "creationTrigger": 1
+            
+          },
+          "machineInformation": {
+            "machineNumber": "314811",
+            "serialNumber": "017321",
+            "machineType": "CRM1"
+            
+          },
+         "data": {
+           "transactionDateTime": "2020-12-02T13:43:15",
+           "reportNumber": "0000",
+           "acknowledgementNumber": "314811012012020005",
+           "acknowledgementIssued": "I",
+           "accessType": "Screen Access",
+           "cardNumber": "",
+           "notesRetractedFlag": false,
+           "orderedTotal": 2000,
+           "insertedTotal": 3000,
+           "receivedTotal": 4000,
+           "creditValue": 0,
+           "counterfeitNotesInsertedNumber": 0,
+           "totalCommissionAmount": 0,
+           "sortCode": "314811"
+            
+          }
+        
+        }
+      }
+]

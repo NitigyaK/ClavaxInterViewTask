@@ -1,0 +1,69 @@
+
+<h1 style="padding: 20px;">Before </h1>
+<table mat-table style="width: 100%;" class="mat-elevation-z8" [dataSource]="data">
+
+
+  <ng-container matColumnDef="machineNumber">
+
+    <th mat-header-cell *matHeaderCellDef>Machine Number</th>
+    <td mat-cell *matCellDef="let t"><p></p> {{t.machineNumber}}</td>
+
+  </ng-container>
+
+  <ng-container matColumnDef="serialNumber">
+
+    <th mat-header-cell *matHeaderCellDef>Serial Number</th>
+    <td mat-cell *matCellDef="let t">{{t.serialNumber}}</td>
+
+  </ng-container>
+
+  <ng-container matColumnDef="machineType">
+
+    <th mat-header-cell *matHeaderCellDef>Machine Type</th>
+    <td mat-cell *matCellDef="let t">{{t.machineType}}</td>
+
+  </ng-container>
+  
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+  <tr mat-row *matRowDef="let t;columns:displayedColumns"></tr>
+
+</table>
+
+
+
+
+
+
+
+
+<h1 style="padding: 20px; margin-top: 20px;">After </h1>
+
+<table mat-table style="width: 100%;" class="mat-elevation-z8" [dataSource]="uniqueArray">
+
+  <ng-container matColumnDef="machineNumber">
+
+    <th mat-header-cell *matHeaderCellDef>Machine Number</th>
+    <td mat-cell *matCellDef="let t">{{t.machineNumber}}</td>
+
+  </ng-container>
+
+  <ng-container matColumnDef="serialNumber">
+
+    <th mat-header-cell *matHeaderCellDef>Serial Number</th>
+    <td mat-cell *matCellDef="let t">{{t.serialNumber}}</td>
+
+  </ng-container>
+
+  <ng-container matColumnDef="machineType">
+
+    <th mat-header-cell *matHeaderCellDef>Machine Type</th>
+    <td mat-cell *matCellDef="let t">{{t.machineType}}</td>
+
+  </ng-container>
+  
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+  <tr mat-row *matRowDef="let t;columns:displayedColumns"></tr>
+
+</table>
